@@ -75,3 +75,16 @@ a{
       max-width: 33.333%;
     }
   }
+  @media (min-width: 768px) {
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .menu {
+      text-align: center;
+    }
+    .menu ul {
+      flex-direction: row;
+    }
+  }
